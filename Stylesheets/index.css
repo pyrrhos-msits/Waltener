@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+section {
+    margin-top: 6rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    background-color: blue;
+    height: 5rem;
+    justify-content: flex-end;
+    overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding-top: 1.8rem;
+    margin-right: 20px;
+}
+
+/* <<<<<<<<<<<<<<<< Contact >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.conAdr {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* <<<<<<<<<<<<<<< Impressum >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.text {
+    text-align: center;
+}
